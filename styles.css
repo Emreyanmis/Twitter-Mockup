@@ -1,0 +1,195 @@
+#sider{
+    width: 40%;
+    float: right;
+}
+body{
+    background-color: #075f5b;
+}
+#main{
+    width: 60%;
+    float: left;
+}
+.tweet{
+    width: 500px;
+    height: auto;
+    font-size: 15px;
+    background-color: #f7f20050;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    font-family: "Times New Roman";
+    color: rgb(88, 0, 146);
+    word-break: break-word;
+}
+
+.name{
+    color: rgb(199, 88, 14);
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+.pin{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    height: 15px;
+    vertical-align: 1px;
+    color: rgb(174, 175, 179);
+}
+
+.body{
+    margin-left: 4px;
+    line-height: 23px;
+}
+
+.rebody{
+    margin-left: 4px;
+    margin-bottom: 15px;
+}
+
+.retweetText{
+    border: 0.5px solid rgb(174, 175, 179);
+    border-radius: 10px;
+    margin: 5px 8px 20px 4px;
+    padding: 10px 10px 15px 10px;
+}
+
+.likes, .retweets, .replies{
+    color: rgb(174, 175, 179);
+    font-size: 13px;
+}
+
+.inline{
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.inlineButton{
+    margin: 15px 26px 0px 6px;
+}
+
+.retweetButton{
+    margin-left: 4px;
+}
+
+button{
+    cursor: pointer;
+    color: rgb(174, 175, 179);
+    border-radius: 20px;
+    border: 1px solid rgb(174, 175, 179);
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+#new{
+    display: block;
+    float: right;
+    margin: 14px 30px 30px 30px;
+    padding: 5px 20px;
+}
+#newTweetButton{
+    margin: 20px 0px 0px 50%;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.delete, .edit{
+    float: right;
+    margin-left: 8px;
+}
+
+.saveButton{
+    margin: 10px 0px;
+    position: relative;
+    right: 440px;
+}
+
+.unlikeButton{
+    background: #FF3380;
+    border-color: #FF3380;
+    color: #ffffff;
+}
+.replyButton{
+    margin: 15px 4px 0px 0px;
+}
+button:hover {
+    color: #ffffff;
+    transition: all 0.4s ease 0s;
+}
+
+#newTweetButton:hover{
+    background: rgb(14, 175, 135);
+    border-color: rgb(14, 175, 135);
+}
+
+#new:hover{
+    background: rgb(40, 80, 70) ;
+    border-color: rgb(40, 80, 70) ;
+}
+
+.delete:hover{
+    background: #AC1A1A ;
+    border-color: #AC1A1A;
+}
+.save:hover{
+    background: rgb(14, 175, 94) ;
+    border-color: rgb(14, 175, 94) ;
+}
+
+.replyButton:hover{
+    background: #f6b93b;
+    border-color: #f6b93b ;
+}
+#main textarea{
+    display: block;
+    background-color: rgba(238, 238, 238, 0.726);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    color: rgb(8, 15, 44);
+    font-family: "Times New Roman";
+}
+
+.likeButton:hover{
+    background: #FF3380;
+    border-color: rgb(65, 70, 6);
+}
+
+.unlikeButton:hover{
+    background: transparent;
+    border: 1px solid rgb(174, 175, 179);
+    color: rgb(174, 175, 179);
+}
+
+.retweetButton:hover{
+    background: #33FFB2;
+    border-color: #33FFB2;
+}
+
+.edit:hover{
+    background: #077EF5;
+    border-color: #077EF5;
+}
+
+#newInput{
+    display: block;
+    background-color: black;
+    border: none;
+    font-size: 14px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    color: rgb(63, 102, 100);
+    width: 80%;
+    float: right;
+    border: 1px solid rgb(78, 96, 172);
+    font-family: "Times New Roman";
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgb(174, 175, 179);
+}
